@@ -1,7 +1,7 @@
 -- do these datatypes make sense?
 CREATE TABLE "koalas" (
 	"id" SERIAL PRIMARY KEY,
-	"name" INT NOT NULL,
+	"name" VARCHAR(60),
 	"color" VARCHAR(20) NOT NULL,
 	"age" INT,
 	"readyToTransfer" BOOLEAN,
